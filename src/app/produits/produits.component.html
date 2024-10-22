@@ -13,8 +13,8 @@
                     <tr *ngFor=" let c of pdts">
                     <th scope="row">{{c.id}}</th>
                    
-                    <td>{{c.titre}}</td> <!--interpolation(affivher objet de ts dans html)-->
-                    <td>{{c.prix}}</td> <!--interpolation(affivher objet de ts dans html)-->
+                    <td>{{c.titre}}</td> 
+                    <td>{{c.prix}}</td>
                     <td><a href="#" class="btn btn-danger" (click)="delete(c.id)">supprimer produit</a></td>
 
                 </tr>
