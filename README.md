@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # AppArij3
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.9.
@@ -25,3 +26,6 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+=======
+# HAFNAOUIArij_project
+>>>>>>> d0a11da26b3b593ba542c80ed16c266f6a6f0360
