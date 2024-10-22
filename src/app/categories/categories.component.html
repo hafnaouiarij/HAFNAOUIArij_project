@@ -1,0 +1,22 @@
+<div class="container mt-5">
+    <div class="row">
+        <div class="col">
+            <h2>Liste des Produits</h2>
+            <table class="table table-striped">
+                <thead>
+                    <tr><th scope="col">ID</th>
+                        <th scope="col">Categories</th>
+                    <th>Action</th></tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor=" let c of cats">
+                    <th scope="row">{{c.id}}</th>
+                    <td>{{c.titre}}</td> <!--interpolation(affivher objet de ts dans html)-->
+                    <td><a href="#" class="btn btn-primary" routerLink="/produits/{{c.id}}">Liste des produits</a></td>
+                </tr>
+                </tbody>
+            </table>
+            <a class="btn btn-success" routerLink="/addProduit">Ajouter Produit</a>
+        </div>
+    </div>
+</div>
