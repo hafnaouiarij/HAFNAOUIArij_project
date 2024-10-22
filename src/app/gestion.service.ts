@@ -5,7 +5,6 @@ import { Injectable } from '@angular/core';
   providedIn: 'root'
 })
 export class GestionService {
- //http injection dans le constructeur (caracteris de module tetsmama injection)
   constructor(private http:HttpClient) {}
 
   getCategories() {
