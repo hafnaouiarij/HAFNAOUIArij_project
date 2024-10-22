@@ -6,7 +6,6 @@ import { AddProduitComponent } from './add-produit/add-produit.component';
 
 
 const routes: Routes = [
-  { path: '', redirectTo: '/accueil', pathMatch: 'full' },
   {path:"categories" , component:CategoriesComponent},
   {path:"produits/:id" , component:ProduitsComponent},
   {path:"addProduit" , component:AddProduitComponent},
