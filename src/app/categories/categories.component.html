@@ -11,7 +11,7 @@
                 <tbody>
                     <tr *ngFor=" let c of cats">
                     <th scope="row">{{c.id}}</th>
-                    <td>{{c.titre}}</td> <!--interpolation(affivher objet de ts dans html)-->
+                    <td>{{c.titre}}</td> 
                     <td><a href="#" class="btn btn-primary" routerLink="/produits/{{c.id}}">Liste des produits</a></td>
                 </tr>
                 </tbody>
